@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Task6.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/2a13f5faa9.js" crossorigin="anonymous"></script>
+
+    
+    
+</head>
+<body>
+    
+
+    <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+           <li><i class="fa-solid fa-arrow-up"></i></li>
+          <img src="http://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+</body>
+</html>

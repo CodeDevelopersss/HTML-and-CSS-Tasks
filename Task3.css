@@ -1,0 +1,21 @@
+table{
+    width:75%;
+    border-collapse: collapse;
+    border-left: rgba(128, 128, 128, 0.616) 1px solid;
+    border-right: rgba(128, 128, 128, 0.615) 1px solid;
+    border-bottom: rgba(128, 128, 128, 0.615) 1px solid;
+    
+}
+table,thead,td{
+    text-align: left;
+}
+
+
+ tbody tr:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.264);
+}
+
+thead{
+    background-color: rgba(0, 128, 23, 0.888);
+    color: white;
+}

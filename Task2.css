@@ -1,0 +1,53 @@
+ul{
+    font-size: 35px;
+    list-style-type: none;
+    
+}
+li{
+    
+    background-color: skyblue;
+    padding:15px;
+}
+.v_navigationbar{
+    border:solid white 2px;
+    width:20%;
+}
+a{
+   
+    text-decoration: none;
+}
+
+.changecolor{
+    color: blue;
+}
+li:hover{
+    background-color: orange;
+    
+    
+}
+li:hover a{
+    color: white;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#navbar li{
+    font-size: 30px;
+    margin-top: 100px;
+    background-color: rgba(128, 128, 128, 0.303);
+    width: 7%;
+    border-right: 1px solid blue;
+    padding:10px;  
+    
+}
+ul #noborder{
+    border-right: none;
+}
+#navbar li:hover{
+      background-color: gray;
+}
+
+
